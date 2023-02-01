@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.lang.IllegalArgumentException;
 
-class Solution {
+class TwoSumSolution {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 

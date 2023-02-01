@@ -3,7 +3,7 @@ import java.lang.String;
 import java.lang.StringBuffer;
 import java.util.Scanner;
 
-public class Solution {
+public class LOLSSolution {
 
     public static void main(String[] args) {
         System.out.println("String: ");
