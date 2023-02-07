@@ -1,4 +1,4 @@
-public class JavaSolution {
+public class Java0002Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode head = null, tail = null;
         int carry = 0;

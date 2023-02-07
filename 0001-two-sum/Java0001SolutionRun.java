@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class JavaSolutionRun {
+public class Java0001SolutionRun {
     public static void main(String args[]) {
         System.out.println("arr: ");
         Scanner sc = new Scanner(System.in);
@@ -13,7 +13,7 @@ public class JavaSolutionRun {
             int target = sc.nextInt();
 
             //int[] ret = JavaSolution1.twoSum(nums, target);
-            int[] ret = JavaSolution2.twoSum(nums, target);
+            int[] ret = Java0001Solution2.twoSum(nums, target);
 
             for(int i = 0; i < ret.length; i++) {
                 System.out.print(ret[i] + " ");

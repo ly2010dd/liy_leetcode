@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class JavaSolution1 {
+public class Java0001Solution1 {
     public static int[] twoSum(int[] nums, int target) {
         int len = nums.length;
         for (int i = 0; i < len - 1; i++) {
