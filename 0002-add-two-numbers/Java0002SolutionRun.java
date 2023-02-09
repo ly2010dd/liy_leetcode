@@ -5,10 +5,9 @@ import java.util.Scanner;
 import java.util.Collections;
 
 class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
     ListNode(int x) { val = x; };
-
 }
 
 class Solution {

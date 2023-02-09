@@ -1,4 +1,7 @@
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class Java0001SolutionRun {
     public static void main(String args[]) {
@@ -24,10 +27,12 @@ public class Java0001SolutionRun {
     }
 
     public static int[] stringArrToIntArr(String[] arrs) {
-        int[] ints = new int[arrs.length];
+        List<String> strList = Arrays.asList(arrs);
+        return strList.stream().mapToInt(Integer::parseInt).toArray();
+        /*int[] ints = new int[arrs.length];
         for (int i = 0; i < arrs.length; i++) {
             ints[i] = Integer.parseInt(arrs[i]);
         }
-        return ints;
+        return ints;*/
     }
 }
